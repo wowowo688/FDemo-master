@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="480px"
+    android:layout_height="239px"
+    android:gravity="center"
+    android:layout_marginTop="10px">
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/personImage"
+        android:layout_width="474px"
+        android:layout_height="239px" />
+
+
+</LinearLayout>
