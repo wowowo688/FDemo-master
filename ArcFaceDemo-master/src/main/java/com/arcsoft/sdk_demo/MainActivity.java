@@ -40,9 +40,9 @@ public class MainActivity extends Activity implements OnClickListener {
 		v = this.findViewById(R.id.button2);
 		v.setOnClickListener(this);
 
-		this.startDetector(0);
+		//this.startDetector(0);
 
-		this.finish();
+		//this.finish();
 	}
 
 	/* (non-Javadoc)
