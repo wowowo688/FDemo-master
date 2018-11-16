@@ -139,7 +139,6 @@ public class DetecterActivity extends Activity implements OnCameraListener, View
 		List<FaceDB.FaceRegist> mResgist = ((Application)DetecterActivity.this.getApplicationContext()).mFaceDB.mRegister;
 		//List<ASAE_FSDKFace> face1 = new ArrayList<>();
 		//List<ASGE_FSDKFace> face2 = new ArrayList<>();
-		
 		@Override
 		public void setup() {
 			AFR_FSDKError error = engine.AFR_FSDK_InitialEngine(FaceDB.appid, FaceDB.fr_key);
